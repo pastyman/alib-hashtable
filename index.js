@@ -43,7 +43,7 @@ module.exports = function alibHashtable(key) {
           //find insert position
           for (iSearch = 0; iSearch < objects.length; iSearch++) {
             if (sortFunc(objects[iSearch], item) > -1) {
-              //found larger or same size item so stop and recored insert pos (splice places behind at selected index)
+              //found larger or same size item so stop and recorded insert pos (splice places behind at selected index)
               insertPos = iSearch;
               break;
             }
@@ -76,7 +76,7 @@ module.exports = function alibHashtable(key) {
           //find insert position
           for (iSearch = 0; iSearch < objects.length; iSearch++) {
             if (sortFunc(objects[iSearch], item) > -1) {
-              //found larger or same size item so stop and recored insert pos (splice places behind at selected index)
+              //found larger or same size item so stop and record insert pos (splice places behind at selected index)
               insertPos = iSearch;
               break;
             }
