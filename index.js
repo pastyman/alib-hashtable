@@ -9,8 +9,7 @@ module.exports = function alibHashtable(key) {
     keys.length = 0;
     objects.length = 0;
 
-    var i = 0;
-    for (i = 0; i < objectList.length; i++) {
+    for (var i = 0; i < objectList.length; i++) {
       keys.push(objectList[i][key]);
       objects.push(objectList[i]);
     }
